@@ -25,7 +25,7 @@ Widget build(BuildContext context) {
             alignment:AlignmentDirectional.center,
             children:<Widget>[
               Image.asset('lib/src/img/background_gradient.png',
-              width: 180.0,
+              width: 120.0,
               ),
               Image.asset('lib/src/img/monkey_face.png')
               ],

@@ -1,0 +1,56 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "flutter",
+			"command": "flutter",
+			"args": [
+				"pub",
+				"upgrade"
+			],
+			"problemMatcher": [],
+			"label": "flutter: flutter pub upgrade",
+			"detail": "",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "flutter",
+			"command": "flutter",
+			"args": [
+				"build",
+				"apk"
+			],
+			"group": "build",
+			"problemMatcher": [],
+			"label": "flutter: flutter build apk",
+			"detail": ""
+		},
+		{
+			"type": "flutter",
+			"command": "flutter",
+			"args": [
+				"build",
+				"aar"
+			],
+			"group": "build",
+			"problemMatcher": [],
+			"label": "flutter: flutter build aar",
+			"detail": ""
+		},
+		{
+			"type": "flutter",
+			"command": "flutter",
+			"args": [
+				"build",
+				"windows"
+			],
+			"group": "build",
+			"problemMatcher": [],
+			"label": "flutter: flutter build windows",
+			"detail": ""
+		}
+	]
+}
